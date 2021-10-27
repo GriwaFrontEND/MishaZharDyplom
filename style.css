@@ -1,0 +1,250 @@
+/* FONTS */
+/* =================================================================================================================================================== */
+
+@font-face {
+	font-family: 'ArialMT';
+	src: url('ArialMT.eot');
+	src: local('☺'), url('ArialMT.woff') format('woff'), 
+                     url('ArialMT.ttf') format('truetype'), 
+                     url('ArialMT.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fetridge';
+	src: url('Fetridge.eot');
+	src: local('☺'), url('Fetridge.woff') format('woff'), 
+                     url('Fetridge.ttf') format('truetype'), 
+                     url('Fetridge.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Selena';
+	src: url('Selena.eot');
+	src: local('☺'), url('Selena.woff') format('woff'), 
+                     url('Selena.ttf') format('truetype'), 
+                     url('Selena.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Maler';
+	src: url('Maler.eot');
+	src: local('☺'), url('Maler.woff') format('woff'), 
+                     url('Maler.ttf') format('truetype'), 
+                     url('Maler.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* =================================================================================================================================================== */
+
+/* ZEROING STYLES */
+/* =================================================================================================================================================== */
+
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+input{
+	outline: none;
+}
+
+/* =================================================================================================================================================== */
+
+/* HEADER */
+/* =================================================================================================================================================== */
+
+.header{
+	background: url(HeaderBackgroundTwo.webp), url(HeaderBackground.webp);
+	background-repeat: no-repeat, no-repeat;
+	background-position: 0 0, center;
+	background-size: 50% 668px, 100% 100%;
+	height: 1746px;
+}
+
+.container_header{
+	margin: 0 auto;
+	max-width: 1200px;
+	height: 665px;
+}
+
+.language_cahanging{
+	position: relative;
+	max-width: 980px;
+	height: 36px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.btn_language{
+	margin-top: 10px;
+	width: 32px;
+	height: 32px;
+	border: 2px solid #fcb622;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	position: relative;
+	z-index: 12;
+}
+
+.txt_language{
+	font-family: "ArialMT", sans-serif;
+	font-size: 22px;
+	color: #fcb622;
+}
+
+.logo_menu_search_header{
+	position: relative;
+	margin-top: 20px;
+	width: 100%;
+	height: 130px;
+}
+
+.menu_link{
+	font-family: "Selena", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #fcba23;
+	transition: 0.5s;
+	text-shadow: 1px 1px 2px black;
+}
+
+.logo_header{
+	position: absolute;
+	background:  url(Second_logo_header.png), url(First_logo_header.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: center, center;
+	background-size: 199px 78px, 237px 93px;
+	width: 100%;
+	height: 100px;
+	z-index: 2;
+	top: 15px;
+}
+
+.names_logo{
+	position: relative;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.name_logo_one{
+	font-family: "Fetridge", sans-serif;
+	font-size: 32px;
+	color: white;
+}
+
+.name_logo_two{
+	font-family: "Maler", sans-serif;
+	font-size: 32px;
+	color: yellow;
+}
+
+.logo_menu_search_header::before{
+	content: "";
+	position: absolute;
+	display: block;
+	background-color: white;
+	width: 1194px;
+	height: 62px;
+	border-radius: 50px;
+	left: 2px;
+	top: 50px;
+	box-shadow: 0px 0px 25px 0px black;
+}
+
+.menu_nav{
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu_nav li{
+	list-style: none;
+}
+
+.left_list_nav{
+	display: flex;
+	flex-direction: row;
+	margin-left: -16px;
+}
+
+.left_list_nav li{
+	margin: 56px 0 0 50px;
+}
+
+.right_list_nav{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	margin-right: 60px;
+}
+
+.right_list_nav li{
+	margin: 56px 0 0 50px;
+}
+
+.mobile_menu_nav{
+	display: none;
+}
+
+.mob_btn_menu{
+	display: none;
+}
+
+.header_title_search{
+	margin-top: 18px;
+	width: 100%;
+	height: 460px;
+}
+
+.header_title{
+	display: flex;
+	justify-content: center;
+}
+
+h1{
+	text-align: center;
+	font-family: "Maler", sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+	color: white;
+	text-shadow: 8px 8px 10px black;
+}
+
+.header_image{
+	background: url(ImageHeader.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 610px 350px;
+	height: 360px;
+}
+
+/* ======================================================================= */
+
+/* CATEGORY CARS */
+/* ======================================================================= */
+
+.section_one{
+	width: 100%;
+	max-width: 1233px;
+	height: 500px;
+	border: 2px solid white;
+}
